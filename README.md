@@ -42,7 +42,7 @@ Aby użyć skryptu w środowisku Windows należy wykonać poniższe kroki w term
 <b>python -m ipykernel install --user --name=traffic-signs</b>
 6. Uruchomić jupyter notebook: \
 <b>jupyter notebook</b>
-7. Po uruchomieniu jupyter notebook w przeglądarce internetowej należy wybrać <b>plik "traffic_signs_recognition"</b>
+7. Po uruchomieniu jupyter notebook w przeglądarce internetowej należy wybrać <b>plik "traffic_signs_recognition.ipynb"</b>
 8. W <b>zakładce "Kernel"</b> w panelu górnym wybrać <b>Change kernel</b> a następnie wskazać <b>traffic-signs</b>
 9. W pliku projektu "traffic_signs_recognition.ipynb" w sekcji <b>Parametry programu</b> należy zmodyfikować ścieżkę projektu (bezwzględną) <b>project_path</b>, aby wskazywała na <b>katalog "Projekt\python-traffic-signs-classification"</b>.
 10. W celu modyfikacji parametrów dotyczących modelu można dostosowywać parametry modelu tj. epochs, batch size w sekcji <b>Parametry programu</b>
