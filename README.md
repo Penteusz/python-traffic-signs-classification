@@ -32,7 +32,7 @@ Aby użyć skryptu w środowisku Windows należy wykonać poniższe kroki w term
 <b>skopiować pliki projektu : <b>git clone https://github.com/Penteusz/python-traffic-signs-classification.git</b> (wymaga zainstalowania aplikacji git)</b> lub pobrać spakowane pliki (.zip) z repozytorium i je rozpakować w katalogu "Projekt" - zostanie utworzony folder o nazwie "python-traffic-signs-classification" zawierający pliki projektowe
 2. Należy wejść do folderu "python-traffic-signs-classification" i utworzyć w nim środowisko wirtualne \
 <b> python -m venv .\env\traffic-signs</b><br>
-\* Jeśli zainstalowana jest inna wersja pythona, należy zainstalować wersję 3.8.x i utworzyć środowisko podając ścieżkę do pliku wykonywalego python w wersji 3.8.x np:
+\* Jeśli domyśłnie używana jest inna wersja pythona, należy zainstalować wersję 3.8.x i utworzyć środowisko podając ścieżkę do pliku wykonywalego python w wersji 3.8.x np:
 <b>C:\Users\\...\Python\Python38\python.exe -m venv .\env\traffic-signs</b>
 3. Należy aktywować środowisko wirtualne \
 <b>.\env\traffic-signs\Scripts\activate</b>
