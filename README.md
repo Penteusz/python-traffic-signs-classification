@@ -37,7 +37,7 @@ Aby użyć skryptu w środowisku Windows należy wykonać poniższe kroki w term
 3. Należy aktywować środowisko wirtualne \
 <b>.\env\traffic-signs\Scripts\activate</b>
 4. Zainstalować wymagane biblioteki:\
-<b>pip install -r requirements.txt</b>
+<b>pip install -r requirements.txt --no-cache-dir</b>
 5. Utworzyć kernel, który zostanie użyty do wykonania programu: \
 <b>python -m ipykernel install --user --name=traffic-signs</b>
 6. Uruchomić jupyter notebook: \
